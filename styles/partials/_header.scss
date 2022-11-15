@@ -1,0 +1,13 @@
+header {
+    @include flex(column,center,center);
+    @include border($secondary-color);
+
+    h2 {
+        font-size: $big-heading;
+        color:$secondary-color;
+    }
+    p {
+        @include text-styling(12px);
+        color:$secondary-color;
+    }
+}

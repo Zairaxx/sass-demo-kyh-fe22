@@ -1,0 +1,13 @@
+//Variables
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/header";
+@import "partials/main";
+
+body {
+    background:darkblue;
+}
+
+h1 {
+    color:white;
+}

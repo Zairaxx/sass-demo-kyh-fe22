@@ -1,0 +1,19 @@
+main {
+    @include border($primary-color);
+    @include for-tablet {
+        background:darkslategray
+    }
+    @include for-mobile {
+        background:black;
+    }
+    h2, p {
+        @include text-styling(24px);
+        color:$primary-color;
+        @include for-tablet {
+            text-align:center;
+        }
+        @include for-mobile {
+            font-size:16px;
+        }
+    }
+}
