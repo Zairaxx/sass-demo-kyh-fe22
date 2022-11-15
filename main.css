@@ -1,0 +1,52 @@
+* {
+  background: darkblue;
+}
+
+h1 {
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid lightgreen;
+  padding: 4px;
+  margin: 2px;
+}
+
+header h2 {
+  font-size: 32px;
+  color: lightgreen;
+}
+
+header p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-decoration: underline;
+  color: lightgreen;
+}
+
+main {
+  border: 2px solid pink;
+  padding: 4px;
+  margin: 2px;
+}
+
+main h2, main p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  text-decoration: underline;
+  color: pink;
+}
+/*# sourceMappingURL=main.css.map */
